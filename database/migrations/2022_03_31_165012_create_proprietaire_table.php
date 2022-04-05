@@ -24,6 +24,10 @@ return new class extends Migration
             $table->string('dateNaissance');
             $table->string('lieuNaissance');
             $table->string('numPieceIdentite');
+            $table->foreignId('administrateur_id')
+            ->constrained()
+            ->onUpdate('restrict')
+            ->onDelete('restrict');
             $table->timestamps();
         });
     }

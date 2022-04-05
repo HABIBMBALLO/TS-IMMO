@@ -16,6 +16,8 @@ class ProprietaireController extends Controller
         ]);
     }
 
+
+
     public function create(){
         $proprietaire=Proprietaire::all();
         return view('proprietaires/add');
