@@ -13,8 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::disableForeignKeyConstraints();
-        Schema::create('propriete', function (Blueprint $table) {
+        Schema::create('proprietes', function (Blueprint $table) {
             $table->id();
             $table->string('libelle');
             $table->integer('nombre_etage');
@@ -27,7 +26,7 @@ return new class extends Migration
             ->constrained()
             ->onUpdate('restrict')
             ->onDelete('restrict');
-            $table->foreignId('typePropriete_id')
+            $table->foreignId('type_propriete_id')
             ->constrained()
             ->onUpdate('restrict')
             ->onDelete('restrict');
@@ -42,6 +41,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('propriete');
+        Schema::dropIfExists('proprietes');
     }
 };

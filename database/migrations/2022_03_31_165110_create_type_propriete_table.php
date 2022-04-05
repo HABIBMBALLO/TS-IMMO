@@ -13,7 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('type_propriete', function (Blueprint $table) {
+        Schema::create('type_proprietes', function (Blueprint $table) {
             $table->id();
             $table->string('libelle',60);
             $table->timestamps();
@@ -27,6 +27,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('type_propriete');
+        Schema::dropIfExists('type_proprietes');
     }
 };

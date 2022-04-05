@@ -13,7 +13,6 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::disableForeignKeyConstraints();
         Schema::create('quartiers', function (Blueprint $table) {
             
             $table->id();
@@ -33,6 +32,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('quartier');
+        Schema::dropIfExists('quartiers');
     }
 };
