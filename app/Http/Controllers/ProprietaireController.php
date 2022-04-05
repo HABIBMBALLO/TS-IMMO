@@ -11,7 +11,7 @@ class ProprietaireController extends Controller
     {
 
         $proprietaire = Proprietaire::all();
-        return view('proprietaire/index', [
+        return view('proprietaires/index', [
             'proprietaires' => $proprietaire
         ]);
     }
@@ -45,7 +45,3 @@ class ProprietaireController extends Controller
     }
 
 }
-
-
-
-

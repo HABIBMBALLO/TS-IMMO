@@ -10,26 +10,26 @@ class Type_ProprieteController extends Controller
     {
         $type_Propriete = TypePropriete::all();
         return view('typeProprietes/index', [
-            'typePropretes' => $type_Propriete
+            'typeProprietes' => $type_Propriete
         ]);
     }
 
     public function create(){
         $type_Propriete=TypePropriete::all();
-        return view('type_Proprietes/add');
+        return view('typeProprietes/add');
 
     }
 
     public function store(Request  $request){
         TypePropriete::create( $request->all());
-        return redirect()->route('type_propriete.index');
+        return redirect()->route('typePropriete.index');
     }
     public function destroy($id)
     {
         $typePropriete = TypePropriete::findOrFail($id);
         $typePropriete->delete();
 
-        return ("type_Propriete supprimer");
+        return ("typePropriete supprimer");
 
     }
     public function update(Request $request, $id)

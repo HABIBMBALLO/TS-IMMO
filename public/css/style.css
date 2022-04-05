@@ -367,7 +367,7 @@ h5 {
 }
 
 p {
-    color: #58718a;
+    color: #077ef5;
     font-size: 14px;
     line-height: 21px;
 }
@@ -483,11 +483,11 @@ a:focus {
 }
 
 .orange_color {
-    color: #ff5722 !important;
+    color: #d33404 !important;
 }
 
 .orange_bg {
-    background: #ff5722 !important;
+    background: #691900 !important;
 }
 
 .purple_color {
@@ -539,11 +539,11 @@ a:focus {
 }
 
 .orange_color2 {
-    color: #f44336 !important;
+    color: #d81b0e !important;
 }
 
 .orange_bg2 {
-    background: #f44336 !important;
+    background: #da190b !important;
 }
 
 .green_color {
@@ -720,7 +720,7 @@ a:focus {
 .icon_info ul.user_profile_dd>li {
     width: auto;
     border-radius: 0;
-    background: #ff5722;
+    background: #ee0d0d;
     margin: 0;
     padding: 12px 0 12px 20px;
     height: auto;
@@ -730,7 +730,7 @@ a:focus {
     border: none;
     padding: 14px 26px 14px;
     font-size: 21px;
-    background: #ff5722;
+    background: #df0c0c;
     margin-right: 0;
     cursor: pointer;
     float: left;
@@ -878,7 +878,7 @@ span {
 }
 
 #sidebar ul.components ul {
-    background: #214162;
+    background: #047ffa;
     padding: 20px 0;
 }
 
@@ -934,7 +934,7 @@ a[data-toggle="collapse"] {
 .page_title h2 {
     font-size: 20px;
     font-weight: 500;
-    color: #15283c;
+    color: #077af5;
 }
 
 #sidebar.active+#content {
@@ -943,7 +943,7 @@ a[data-toggle="collapse"] {
 
 .topbar .navbar {
     padding: 0;
-    background: #15283c;
+    background: #037bfc;
     border: none;
     border-radius: 0;
 }
@@ -954,7 +954,7 @@ a[data-toggle="collapse"] {
 
 .sidebar_user_info {
     padding: 15px 25px;
-    background: #214162;
+    background: #017cf7;
 }
 
 .user_img img {
@@ -1054,7 +1054,7 @@ a[data-toggle="collapse"] {
     font-weight: 500;
     font-size: 18px;
     color: #fff;
-    border-bottom: solid #ff5722 1px;
+    border-bottom: solid #e62113 1px;
 }
 
 
@@ -1080,7 +1080,7 @@ a[data-toggle="collapse"] {
     font-size: 21px;
     font-weight: 500;
     text-transform: none;
-    color: #222;
+    color: rgb(85, 85, 85);
 }
 
 .page_menu_cont {
@@ -1164,7 +1164,7 @@ a[data-toggle="collapse"] {
     width: 100%;
     line-height: normal;
     font-weight: 600;
-    color: #455a64;
+    color: #3b82a3;
     text-align: right;
     font-size: 24px;
     font-weight: 400;
@@ -1234,7 +1234,7 @@ a[data-toggle="collapse"] {
     background: #fff;
     padding: 15px 25px;
     margin: 20px 0 0 0;
-    border-bottom: solid #ff5722 2px;
+    border-bottom: solid #e91515 2px;
 }
 
 .heading2 h3 {
@@ -1242,7 +1242,7 @@ a[data-toggle="collapse"] {
     text-transform: none;
     font-weight: 600;
     position: relative;
-    color: #15283c;
+    color: #007bff;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -1266,14 +1266,14 @@ a[data-toggle="collapse"] {
     margin-right: 12px;
     margin-bottom: 0;
     font-size: 15px;
-    color: #999;
+    color: rgb(177, 177, 177);
 }
 
 .time_form form .field input {
     border: solid #ddd 1px;
     font-size: 13px;
     font-weight: 500;
-    color: #666;
+    color: rgb(160, 160, 160);
     padding: 6px 10px;
     border-radius: 0;
 }
@@ -1336,7 +1336,7 @@ a[data-toggle="collapse"] {
 
 .skill {
     font-size: 14px;
-    color: #455a64;
+    color: #00aeff;
     margin-top: 20px;
     font-weight: 500;
 }
@@ -1424,7 +1424,7 @@ a[data-toggle="collapse"] {
 }
 
 .dark_bg {
-    background: #214162;
+    background: #047ef8;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
     margin-top: 0;
@@ -1458,23 +1458,23 @@ a[data-toggle="collapse"] {
     background: black;
     padding: 10px 0 8px;
     color: #fff;
-    background: #222;
+    background: rgb(194, 193, 193);
 }
 
 .fb .social_icon {
-    background: #3b5998;
+    background: #004ef7;
 }
 
 .tw .social_icon {
-    background: #00aced;
+    background: #00bbff;
 }
 
 .linked .social_icon {
-    background: #0077B5;
+    background: #00a6ff;
 }
 
 .google_p .social_icon {
-    background: #d34836;
+    background: #e62006;
 }
 
 .socile_icons .social_cont {
@@ -1493,7 +1493,7 @@ a[data-toggle="collapse"] {
     float: left;
     width: 50%;
     font-size: 18px;
-    color: #455a64;
+    color: #07aefc;
     line-height: 24px;
 }
 
@@ -1507,7 +1507,7 @@ a[data-toggle="collapse"] {
 
 .socile_icons .social_cont ul li span strong {
     font-weight: 600;
-    color: #455a64;
+    color: #07a7f1;
     font-size: 18px;
 }
 
@@ -1569,7 +1569,7 @@ a[data-toggle="collapse"] {
 }
 
 #testimonial_slider.carousel .item a {
-    color: #eb7245;
+    color: #eb4b45;
 }
 
 #testimonial_slider.carousel .img-box {
@@ -1629,7 +1629,7 @@ a[data-toggle="collapse"] {
 #testimonial_slider.carousel .carousel-control i {
     font-size: 20px;
     margin-right: 2px;
-    color: #15283c;
+    color: #0f7aec;
     margin-top: -2px;
 }
 
@@ -1662,7 +1662,7 @@ a[data-toggle="collapse"] {
 
 #testimonial_slider.carousel .carousel-indicators li.active {
     border: none;
-    background: #888;
+    background: rgb(179, 179, 179);
 }
 
 
@@ -1725,7 +1725,7 @@ a[data-toggle="collapse"] {
 .dash_blog_inner .list_cont p {
     margin: 2px 0 0 0;
     font-size: 16px;
-    color: #455a64;
+    color: #169ad8;
 }
 
 .task_list {
@@ -1740,7 +1740,7 @@ a[data-toggle="collapse"] {
     border-bottom: solid #eee 1px;
     line-height: normal;
     font-size: 16px;
-    border-left: solid 5px #666;
+    border-left: solid 5px rgb(167, 166, 166);
 }
 
 .main_bt {
@@ -1777,7 +1777,7 @@ button.main_bt {
 
 .task_list li strong {
     font-weight: 600;
-    color: #455a64;
+    color: #1245eb;
 }
 
 .task_list li:nth-child(1) {
@@ -1852,7 +1852,7 @@ button.main_bt {
     border-bottom: solid #eee 1px;
     line-height: normal;
     font-size: 14px;
-    border-left: solid 5px #666;
+    border-left: solid 5px rgb(201, 201, 201);
     float: left;
     width: 100%;
     display: flex;
@@ -1872,7 +1872,7 @@ button.main_bt {
 .msg_list_main ul li span .name_user {
     font-size: 16px;
     font-weight: 500;
-    color: #455a64;
+    color: #02abfa;
     float: left;
     width: 100%;
     margin-bottom: 0;
@@ -1932,7 +1932,7 @@ button.main_bt {
     float: left;
     width: 100%;
     font-size: 18px;
-    color: #0ba6ee;
+    color: #00aeff;
     line-height: 24px;
     text-align: right;
     margin-bottom: 10px;
@@ -1970,7 +1970,7 @@ button.main_bt {
     text-align: center;
     font-size: 14px;
     font-weight: 300;
-    color: #214162;
+    color: #007ffd;
     padding: 25px 15px;
 }
 
@@ -2031,7 +2031,7 @@ button.main_bt {
 .widget_progress_bar .progress_head {
     font-size: 15px;
     font-weight: 400;
-    color: #666;
+    color: rgb(219, 219, 219);
     padding: 0;
 }
 
@@ -2277,7 +2277,7 @@ i.icon {
 
 .heading_section {
     border-top: solid #1ed085 2px;
-    background: #15283c;
+    background: #047af8;
 }
 
 .heading_section h4 {
@@ -2338,7 +2338,7 @@ i.icon {
 h2.invoice_head {
     font-size: 22px;
     font-weight: 500;
-    color: #222;
+    color: rgb(8, 8, 8);
 }
 
 h2.invoice_head small {
@@ -2352,7 +2352,7 @@ h2.invoice_head small {
 }
 
 .invoice_blog h4 {
-    color: #15283c;
+    color: #0a7df8;
     background: #f8f8f8;
     padding: 15px 20px;
     font-weight: 400;
@@ -2367,7 +2367,7 @@ h2.invoice_head small {
 
 .invoice_blog p strong {
     font-weight: 500;
-    color: #15283c;
+    color: #0c7cf3;
 }
 
 .table_row thead {
@@ -2377,7 +2377,7 @@ h2.invoice_head small {
 .table_row thead tr {
     border: none;
     background: #f8f8f8;
-    color: #15283c;
+    color: #0b7df7;
 }
 
 .table_row thead tr th {
@@ -2385,7 +2385,7 @@ h2.invoice_head small {
     font-size: 15px;
     font-weight: 500;
     padding: 14px 25px 14px;
-    color: #15283c;
+    color: #0879f3;
     text-transform: uppercase;
 }
 
@@ -2442,7 +2442,7 @@ h2.invoice_head small {
     border: none;
     padding: 10px 15px;
     font-size: 14px;
-    color: #666;
+    color: rgb(197, 37, 37);
     vertical-align: middle;
 }
 
@@ -2533,9 +2533,9 @@ p.note_cont {
 }
 
 a.mail-dropdown {
-    background: none repeat scroll 0 0 #80d3d9;
+    background: none repeat scroll 0 0 #12dae9;
     border-radius: 2px;
-    color: #01a7b3;
+    color: #10ecfc;
     font-size: 10px;
     margin-top: 20px;
     padding: 3px 5px;
@@ -2624,7 +2624,7 @@ ul.inbox-nav li a:focus i {
 }
 
 ul.inbox-nav li a i {
-    color: #6a6a6a;
+    color: #d42d2d;
     font-size: 18px;
     padding-right: 10px;
     position: relative;
@@ -2634,7 +2634,7 @@ ul.inbox-nav li a i {
 ul.inbox-nav li a span.label {}
 
 ul.labels-info li h4 {
-    color: #5c5c5e;
+    color: #2929c9;
     font-size: 13px;
     padding-left: 15px;
     padding-right: 15px;
@@ -2662,13 +2662,13 @@ ul.labels-category li i {
 
 ul.labels-info li a {
     border-radius: 0;
-    color: #6a6a6a;
+    color: #993c3c;
 }
 
 ul.labels-info li a:hover,
 ul.labels-info li a:focus {
     background: none repeat scroll 0 0 #d5d7de;
-    color: #6a6a6a;
+    color: #964b4b;
 }
 
 ul.labels-info li a i {
@@ -2717,7 +2717,7 @@ ul.labels-info li a i {
 }
 
 .inbox-head .sr-btn {
-    background: #ff5722;
+    background: #22ff77;
     border: medium none;
     border-radius: 0;
     color: #fff;
@@ -2846,7 +2846,7 @@ ul.inbox-pagination li {
 
 .heading-inbox h4 {
     border-bottom: 1px solid #ddd;
-    color: #444;
+    color: rgb(253, 7, 7);
     font-size: 18px;
     margin-top: 20px;
     padding-bottom: 10px;
@@ -2863,13 +2863,13 @@ ul.inbox-pagination li {
 
 .sender-dropdown {
     background: none repeat scroll 0 0 #eaeaea;
-    color: #777;
+    color: rgb(3, 3, 3);
     font-size: 10px;
     padding: 0 3px;
 }
 
 .view-mail a {
-    color: #ff6c60;
+    color: #f51e0a;
 }
 
 .attachment-mail {
