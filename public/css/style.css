@@ -1677,7 +1677,7 @@ a[data-toggle="collapse"] {
     border-radius: 5px 5px 0 0;
     padding: 35px 45px 32px;
     background-size: cover;
-    background-color: #214162;
+    background-color: #087df1;
     position: relative;
 }
 
@@ -1766,7 +1766,7 @@ button.main_bt {
 
 .main_bt:hover,
 .main_bt:focus {
-    background: #ff5722;
+    background: #ce0033;
     color: #fff;
 }
 
@@ -1801,11 +1801,11 @@ button.main_bt {
 }
 
 .msg_list li:nth-child(1) {
-    border-left-color: #ff9800;
+    border-left-color: #ac7421;
 }
 
 .msg_list li:nth-child(2) {
-    border-left-color: #2196f3;
+    border-left-color: #088dfa;
 }
 
 .msg_list li:nth-child(3) {
@@ -1813,7 +1813,7 @@ button.main_bt {
 }
 
 .msg_list li:nth-child(4) {
-    border-left-color: #e91e63;
+    border-left-color: #ce0033;
 }
 
 .msg_list li:nth-child(5) {
@@ -1932,7 +1932,7 @@ button.main_bt {
     float: left;
     width: 100%;
     font-size: 18px;
-    color: #455a64;
+    color: #0ba6ee;
     line-height: 24px;
     text-align: right;
     margin-bottom: 10px;
@@ -2012,7 +2012,7 @@ button.main_bt {
 
 .info_people .user_info_cont p.p_status {
     font-weight: 600;
-    color: #ff5722;
+    color: #ce0033;
     margin-top: 10px;
 }
 
@@ -2022,7 +2022,7 @@ button.main_bt {
 
 .widget_progress_bar .progress_no {
     font-size: 24px;
-    color: #15283c;
+    color: #0979f1;
     font-weight: 500;
     line-height: normal;
     margin: 0;
@@ -2138,7 +2138,7 @@ i.icon {
 -------------------------------------------------------------------*/
 
 .link.today {
-    background: #ff5722;
+    background: #a12803;
     color: #fff;
     font-weight: 600;
 }
@@ -2177,9 +2177,9 @@ i.icon {
 /** tabbar style 2 **/
 
 .tab_style2 .tabbar nav div.nav-tabs .nav-link.active {
-    background: #ff5722;
+    background: #ce0033;
     color: #fff;
-    border-color: #ff5722;
+    border-color: #ce0033;
 }
 
 
@@ -2202,9 +2202,9 @@ i.icon {
 }
 
 .tab_style3 div.tabbar div.nav-pills .nav-link.active {
-    background: #ff5722;
+    background: #ce0033;
     color: #fff;
-    border-color: #ff5722;
+    border-color: #ce0033;
 }
 
 
@@ -2248,8 +2248,8 @@ i.icon {
 .pagination .btn.active,
 .pagination .btn:hover,
 .pagination .btn:focus {
-    background: #333;
-    border-color: #333;
+    background: rgb(31, 28, 211);
+    border-color: rgb(39, 36, 207);
 }
 
 
@@ -2408,7 +2408,7 @@ h2.invoice_head small {
     font-weight: 400;
     padding: 12px 25px 12px;
     border: none;
-    color: #58718a;
+    color: #ce0033;
 }
 
 

@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 use App\Models\Propriete;
 use App\Models\Proprietaire;
-use App\Models\Type_Propriete;
+use App\Models\TypePropriete;
 use App\Models\Quartier;
 use Illuminate\Http\Request;
 
@@ -22,7 +22,7 @@ class ProprieteController extends Controller
     public function create(){
         $propriete=Propriete::all();
         $proprietaire = Proprietaire::all();
-        $typePropriete = Type_Propriete::all();
+        $typePropriete = TypePropriete::all();
         $quartier = Quartier::all();
         return view('proprietes/add',[
             'proprietaires'=>$proprietaire,
