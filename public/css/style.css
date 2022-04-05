@@ -10,6 +10,7 @@
 
 /*------------------------------------------------------------------
     [Table of contents]
+
     1. import fonts
     2. import files
     3. basic
@@ -78,7 +79,7 @@
 
 html,
 body {
-    color: #646161;
+    color: #898989;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     line-height: normal;
@@ -215,8 +216,8 @@ a,
 
 .btn-success {
     color: #fff;
-    background-color: #d01e1e;
-    border-color: #d01e1e;
+    background-color: #1ed085;
+    border-color: #1ed085;
 }
 
 ul {
@@ -247,7 +248,7 @@ a.btn {
 }
 
 .blue_bg {
-    background: #06a5f5;
+    background: #36a9e2;
 }
 
 .yellow_bg {
@@ -625,7 +626,7 @@ a:focus {
     width: 100%;
     padding-left: 280px;
     z-index: 2;
-    background: #067cf1;
+    background: #15283c;
     top: 0;
     transition: ease all 0.3s;
     left: 0;
@@ -719,7 +720,7 @@ a:focus {
 .icon_info ul.user_profile_dd>li {
     width: auto;
     border-radius: 0;
-    background: #87192b;
+    background: #ff5722;
     margin: 0;
     padding: 12px 0 12px 20px;
     height: auto;
@@ -729,7 +730,7 @@ a:focus {
     border: none;
     padding: 14px 26px 14px;
     font-size: 21px;
-    background: #cc4764;
+    background: #ff5722;
     margin-right: 0;
     cursor: pointer;
     float: left;
@@ -742,7 +743,7 @@ a:focus {
     position: absolute;
     right: -2px;
     top: -7px;
-    background: hsl(350, 59%, 56%);
+    background: #ff5722;
     border-radius: 100%;
     color: #fff;
     font-weight: 600;
@@ -942,7 +943,7 @@ a[data-toggle="collapse"] {
 
 .topbar .navbar {
     padding: 0;
-    background: #0776ec;
+    background: #15283c;
     border: none;
     border-radius: 0;
 }
@@ -953,7 +954,7 @@ a[data-toggle="collapse"] {
 
 .sidebar_user_info {
     padding: 15px 25px;
-    background: #1d69b5;
+    background: #214162;
 }
 
 .user_img img {
@@ -1163,7 +1164,7 @@ a[data-toggle="collapse"] {
     width: 100%;
     line-height: normal;
     font-weight: 600;
-    color: #1899d5;
+    color: #455a64;
     text-align: right;
     font-size: 24px;
     font-weight: 400;
@@ -1172,7 +1173,7 @@ a[data-toggle="collapse"] {
 .counter_no .head_couter {
     float: left;
     width: 100%;
-    color: #1695d5;
+    color: #99abb4;
     font-weight: 300;
     margin: 0px 0 0 0;
     font-size: 20px;
@@ -1233,7 +1234,7 @@ a[data-toggle="collapse"] {
     background: #fff;
     padding: 15px 25px;
     margin: 20px 0 0 0;
-    border-bottom: solid #ff2234 2px;
+    border-bottom: solid #ff5722 2px;
 }
 
 .heading2 h3 {
@@ -1241,7 +1242,7 @@ a[data-toggle="collapse"] {
     text-transform: none;
     font-weight: 600;
     position: relative;
-    color: #133c67;
+    color: #15283c;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -1423,7 +1424,7 @@ a[data-toggle="collapse"] {
 }
 
 .dark_bg {
-    background: #1773d0;
+    background: #214162;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
     margin-top: 0;
