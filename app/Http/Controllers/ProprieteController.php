@@ -18,6 +18,7 @@ class ProprieteController extends Controller
         ]);
     }
 
+    // maVariableDeMerde : ma_variable_de_merde
     public function create(){
         $propriete=Propriete::all();
         $proprietaire = Proprietaire::all();

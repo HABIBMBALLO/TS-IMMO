@@ -37,13 +37,13 @@
                <div class="sidebar_blog_1">
                   <div class="sidebar-header">
                      <div class="logo_section">
-                        <a href="index.html"><img class="logo_icon img-responsive" src="{{asset('./images/logo/logo_icon.png')}}" alt="#" /></a>
+                        <a href="index.html"><img class="logo_icon img-responsive" src="{{asset('./images/logo/tsimmo.png')}}" alt="#" /></a>
                      </div>
                   </div>
                   <div class="sidebar_user_info">
                      <div class="icon_setting"></div>
                      <div class="user_profle_side">
-                        <div class="user_img"><img class="img-responsive" src="{{asset('./images/layout_img/user_img.jpg')}}" alt="#" /></div>
+                        <div class="user_img"><img class="img-responsive" src="{{asset('./images/layout_img/Habib.png')}}" alt="#" /></div>
                         <div class="user_info">
                            <h6>LOMB-TECH</h6>
                            <p><span class="online_animation"></span> Online</p>
@@ -69,17 +69,6 @@
                         <a href="#dashboard" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-dashboard yellow_color"></i> <span>Propriete</span></a>
                         <ul class="collapse list-unstyled" id="dashboard">
                           
-                        </ul>
-                     </li>
-                     <li>
-                        <a href="#element" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-diamond purple_color"></i> <span>Elements</span></a>
-                        <ul class="collapse list-unstyled" id="element">
-                        <li>
-                              <a href="/propriete/create"> <span>Ajouter</span></a>
-                           </li>
-                           <li>
-                              <a href="/propriete"><span>List</span></a>
-                           </li>
                         </ul>
                      </li>
                      </li>

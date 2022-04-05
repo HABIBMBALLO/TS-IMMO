@@ -11,7 +11,7 @@ class ProprietaireController extends Controller
     {
 
         $proprietaire = Proprietaire::all();
-        return view('proprietaires/index', [
+        return view('proprietaire/index', [
             'proprietaires' => $proprietaire
         ]);
     }
