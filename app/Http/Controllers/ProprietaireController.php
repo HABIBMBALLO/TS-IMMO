@@ -29,6 +29,27 @@ class ProprietaireController extends Controller
         Proprietaire::create( $request->all());
         return redirect()->route('proprietaire.create');
     }
+
+   
+
+    // public function show(Proprietaire  $proprietaire){
+
+    //     $villas = $proprietaire->villas;
+    //     $immeubles = $proprietaire->immeubles;
+        
+    //     return view('proprietaire.create',
+    //      [
+    //          'proprietaire' => $proprietaire,
+    //           'villas' => $villas,
+    //           'immeubles' => $immeubles
+    //         ]);
+
+    // }
+
+
+
+
+
     public function destroy($id)
     {
         $proprietaire = Proprietaire::findOrFail($id);
@@ -42,6 +63,10 @@ class ProprietaireController extends Controller
         $proprietaire = Proprietaire::find($id);
         $proprietaire->update($request->all());
         return $proprietaire;
+    }
+
+    public function edit(Request $request, $id) { 
+
     }
 
 }
