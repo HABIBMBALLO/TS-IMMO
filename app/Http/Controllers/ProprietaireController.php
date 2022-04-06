@@ -16,8 +16,6 @@ class ProprietaireController extends Controller
         ]);
     }
 
-
-
     public function create(){
         $proprietaire=Proprietaire::all();
         return view('proprietaires/add');
@@ -30,25 +28,6 @@ class ProprietaireController extends Controller
         return redirect()->route('proprietaire.create');
     }
 
-   
-
-    // public function show(Proprietaire  $proprietaire){
-
-    //     $villas = $proprietaire->villas;
-    //     $immeubles = $proprietaire->immeubles;
-        
-    //     return view('proprietaire.create',
-    //      [
-    //          'proprietaire' => $proprietaire,
-    //           'villas' => $villas,
-    //           'immeubles' => $immeubles
-    //         ]);
-
-    // }
-
-
-
-
 
     public function destroy($id)
     {
@@ -56,8 +35,8 @@ class ProprietaireController extends Controller
         $proprietaire->delete();
 
         return ("proprietaires supprime");
-
     }
+    
     public function update(Request $request, $id)
     {
         $proprietaire = Proprietaire::find($id);
@@ -65,8 +44,20 @@ class ProprietaireController extends Controller
         return $proprietaire;
     }
 
-    public function edit(Request $request, $id) { 
-
+    public function edit($id)
+    {
+        $proprietaire = Proprietaire::find($id);
+        return view('proprietaires/edit', [
+            'proprietaires' => $proprietaire
+        ]);
     }
+    
+    public function show($id)
+    {
 
+        $proprietaire = Proprietaire::find($id);
+        return view('proprietaires/show', [
+            'proprietaires' => $proprietaire
+        ]);
+    }
 }
