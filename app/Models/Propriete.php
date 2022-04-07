@@ -10,18 +10,18 @@ class Propriete extends Model
     use HasFactory;
     protected $fillable=['libelle','nombre_etage','superficie','quartier_id','proprietaire_id','typePropriete_id'];
 
-    public function proprietaire()
+    public function proprietaires()
     {
         return $this->belongsTo(Proprietaires::class);
     }
 
-    public function quartier()
+    public function quartiers()
     {
-        return $this->belongsTo(Quartier::class);
+        return $this->belongsTo(Quartiers::class);
     }   
 
-    public function type_propriete()
+    public function type_proprietes()
     {
-        return $this->belongsTo(Type_Propriete::class);
+        return $this->belongsTo(Type_Proprietes::class);
     }
 }

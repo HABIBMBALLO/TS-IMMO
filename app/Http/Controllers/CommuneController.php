@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Commune;
 use Illuminate\Http\Request;
-use App\Models\Commune;
+
 class CommuneController extends Controller
 {
 

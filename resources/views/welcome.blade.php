@@ -2,7 +2,7 @@
  
 @section('content')
  
-	<div style="  background-image: url('{{asset('./image/homebackgroun.jpg')}}');
+	<div style="  background-image: url('{{asset('./image/dashboardbackgroun.jpg')}}');
                     background-size: cover;">
 
     </div>
