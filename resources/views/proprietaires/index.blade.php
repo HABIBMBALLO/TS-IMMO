@@ -25,18 +25,18 @@
                                           </tr>
                                        </thead>
                                        <tbody>
-                                       @foreach($proprietaires as $prop)
-                                          <tr>
-                                             <td>{{$prop->nom}}</td>
-                                             <td>{{$prop->prenom}}</td>
-                                             <td>{{$prop->telephone}}</td>
-                                             <td>{{$prop->sexe}}</td>
-                                             <td><a href="#">Detail</a></td>
-                                             <td><a href="#">Edit</a></td>
-                                             <td><a href="#">Delete</a></td>
+                                       @foreach($proprietaires as $proprietaire)
+                                          <tr>  
+                                             <td>{{$proprietaire->nom}}</td>
+                                             <td>{{$proprietaire->prenom}}</td>
+                                             <td>{{$proprietaire->telephone}}</td>
+                                             <td>{{$proprietaire->sexe}}</td>
+                                             {{-- <td><a href={{"/$proprietaire->id"}}>Detail</a></td> --}}
+                                             <td><a href="{{route('proprietaire.show',['id'=>$proprietaire->id])}}"></a></td>
+                                             <td><a href="{{route('proprietaire.edit',['id'=>$proprietaire->id])}}">Edit</a></td>
+                                             <td><a href="{{route('proprietaire.destroy',['id'=>$proprietaire->id])}}">Delete</a></td>
                                           </tr>
                                           @endforeach
-      
                                        </tbody>
                                     </table>
                                     
@@ -48,3 +48,7 @@
          </div>
       </div>
 @endsection
+
+
+
+

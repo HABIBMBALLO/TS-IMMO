@@ -43,10 +43,10 @@
                   <div class="sidebar_user_info">
                      <div class="icon_setting"></div>
                      <div class="user_profle_side">
-                        <div class="user_img"><img class="img-responsive" src="{{asset('./images/layout_img/Habib.png')}}" alt="#" /></div>
+                        <div class="user_img"><img class="img-responsive" src="{{asset('./images/layout_img/tsimmo:png')}}" alt="#" /></div>
                         <div class="user_info">
-                           <h6>LOMB-TECH</h6>
-                           <p><span class="online_animation"></span> Online</p>
+                           <h6>TS-IMMO</h6>
+                           {{-- <p><span class="online_animation"></span> Online</p> --}}
                         </div>
                      </div>
                   </div>
@@ -64,6 +64,10 @@
                               <a href="/proprietaire"><span>List</span></a>
                            </li>
                         </ul>
+
+
+            
+
                      </li>
                      <li class="">
                         <a href="#dashboard" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-dashboard yellow_color"></i> <span>Propriete</span></a>

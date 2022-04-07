@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CommuneController;
 use App\Http\Controllers\ProprieteController;
 use App\Http\Controllers\ProprietaireController;
+use App\Http\Controllers\TypeProprieteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -71,6 +72,14 @@ Route::resource('/proprietaire', ProprietaireController::class);
 
 
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
+// Route::get('/dashboard', function () {
+//     return view('dashboard');
+// })->middleware(['auth'])->name('dashboard');
+
+// require __DIR__.'/auth.php';
+
+
+
+// Route::get('/dashboard', function () {
+//     return view('proprietaire.index');
+// })->middleware(['auth'])->name('dashboard');

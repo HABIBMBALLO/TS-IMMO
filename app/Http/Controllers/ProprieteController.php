@@ -29,25 +29,34 @@ class ProprieteController extends Controller
             'typeproprietes'=>$typePropriete,
             'quartiers'=>$quartier,
         ]);
-
     }
 
     public function store(Request  $request){
         Propriete::create( $request->all());
         return redirect()->route('propriete.index');
     }
+    
     public function destroy($id)
     {
         $propriete = Propriete::findOrFail($id);
         $propriete->delete();
 
         return ("propriete supprime");
-
     }
     public function update(Request $request, $id)
     {
         $propriete = Propriete::find($id);
         $propriete->update($request->all());
         return $propriete;
+    }
+
+    public function show($id)
+    {
+
+        $propriete = Propriete::find($id);
+        $proprietaire = Proprietaire::all();
+        return view('proprietes/show', [
+            'proprietes' => $propriete
+        ]);
     }
 }

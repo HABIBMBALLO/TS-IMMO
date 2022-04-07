@@ -1,6 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
+
+use App\Models\Administrateur;
 use App\Models\Proprietaire;
 use Illuminate\Http\Request;
 
@@ -18,6 +20,7 @@ class ProprietaireController extends Controller
 
     public function create(){
         $proprietaire=Proprietaire::all();
+        // $administrateur= Administrateur::all();
         return view('proprietaires/add');
 
 
@@ -54,7 +57,6 @@ class ProprietaireController extends Controller
     
     public function show($id)
     {
-
         $proprietaire = Proprietaire::find($id);
         return view('proprietaires/show', [
             'proprietaires' => $proprietaire

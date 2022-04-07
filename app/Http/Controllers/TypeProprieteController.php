@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 use App\Models\TypePropriete;
 use Illuminate\Http\Request;
 
-class Type_ProprieteController extends Controller
+class TypeProprieteController extends Controller
 {
     public function index()
     {
