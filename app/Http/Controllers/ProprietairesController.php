@@ -2,64 +2,61 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Administrateur;
-use App\Models\Proprietaire;
+use App\Models\Proprietaires;
 use Illuminate\Http\Request;
+use PDF;
 
-class ProprietaireController extends Controller
+class ProprietairesController extends Controller
 {
-
     public function index()
     {
 
-        $proprietaire = Proprietaire::all();
+        $proprietaire = Proprietaires::all();
         return view('proprietaires/index', [
             'proprietaires' => $proprietaire
         ]);
     }
 
     public function create(){
-        $proprietaire=Proprietaire::all();
-        // $administrateur= Administrateur::all();
-        return view('proprietaires/add');
+        $proprietaire=Proprietaires::all();
+        return view('proprietaires.add');
 
 
     }
 
     public function store(Request  $request){
-        Proprietaire::create( $request->all());
+        Proprietaires::create( $request->all());
         return redirect()->route('proprietaire.create');
     }
-
-
     public function destroy($id)
     {
-        $proprietaire = Proprietaire::findOrFail($id);
+        $proprietaire = Proprietaires::findOrFail($id);
         $proprietaire->delete();
 
-        return ("proprietaires supprime");
+        return redirect()->route('proprietaire.list');
+
     }
-    
     public function update(Request $request, $id)
     {
-        $proprietaire = Proprietaire::find($id);
+        $proprietaire = Proprietaires::find($id);
         $proprietaire->update($request->all());
-        return $proprietaire;
+        return redirect()->route('proprietaire.list');
     }
-
     public function edit($id)
     {
-        $proprietaire = Proprietaire::find($id);
+        $proprietaire = Proprietaires::find($id);
         return view('proprietaires/edit', [
             'proprietaires' => $proprietaire
         ]);
     }
-    
+
     public function show($id)
     {
-        $proprietaire = Proprietaire::find($id);
+
+        $proprietaire = Proprietaires::find($id);
         return view('proprietaires/show', [
             'proprietaires' => $proprietaire
         ]);
     }
-}
+
+    }

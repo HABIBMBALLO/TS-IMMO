@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-return new class extends Migration
+class CreateQuartiersTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,11 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('communes', function (Blueprint $table) {
+        Schema::create('quartiers', function (Blueprint $table) {
             $table->id();
             $table->string('libelle');
+            $table->unsignedBigInteger('commune_id');
+            $table->foreign('commune_id')->references('id')->on('communes');
             $table->timestamps();
         });
     }
@@ -27,6 +29,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('communes');
+        Schema::dropIfExists('quartiers');
     }
-};
+}

@@ -14,7 +14,7 @@
                             </div>
                         </div>
                         <div class="login_form">
-                            <form action="{{route('proprietaire.update',['id'=>$proprietaires->id])}}" method="post">
+                            <form action="{{route('proprietaire.update',['id'=>$proprietaires->id])}}" method="POST">
                                 @csrf
                                 <fieldset>
                                     <div class="field">

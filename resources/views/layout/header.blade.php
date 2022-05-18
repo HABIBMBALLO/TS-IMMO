@@ -28,31 +28,32 @@
       <link rel="stylesheet" href="{{asset('./css/perfect-scrollbar.css')}}" />
       <!-- custom css -->
       <link rel="stylesheet" href="{{asset('./css/custom.css')}}" />
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
    </head>
    <body class="dashboard dashboard_1">
       <div class="full_container">
          <div class="inner_container">
             <!-- Sidebar  -->
             <nav id="sidebar">
-               <div class="sidebar_blog_1">
+               <div class="sidebar_blog_2">
                   <div class="sidebar-header">
                      <div class="logo_section">
-                        <a href="index.html"><img class="logo_icon img-responsive" src="{{asset('./images/logo/tsimmo.png')}}" alt="#" /></a>
+                        <a href="index.html"><img class="logo_icon img-responsive" src="{{asset('./images/logo/tsimmo.png')}}" alt="" /></a>
                      </div>
                   </div>
                   <div class="sidebar_user_info">
                      <div class="icon_setting"></div>
                      <div class="user_profle_side">
-                        <div class="user_img"><img class="img-responsive" src="{{asset('./images/layout_img/tsimmo:png')}}" alt="#" /></div>
+                        <div class="user_img"><img class="img-responsive" src="{{asset('./images/layout_img/tsimmo.png')}}" alt="" /></div>
                         <div class="user_info">
-                           <h6>TS-IMMO</h6>
-                           {{-- <p><span class="online_animation"></span> Online</p> --}}
+                           <h6>TASNIM</h6>
+                           <!-- <p><span class="online_animation"></span> Online</p> -->
                         </div>
                      </div>
                   </div>
                </div>
-               <div class="sidebar_blog_2">
-                  <h4>General</h4>
+               <div class="sidebar_blog_1">
+                  <h4>Agence Immobiliere</h4>
                   <ul class="list-unstyled components">
                      <li class="active">
                         <a href="#dashboard" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-dashboard yellow_color"></i> <span>Proprietaires</span></a>
@@ -64,15 +65,18 @@
                               <a href="/proprietaire"><span>List</span></a>
                            </li>
                         </ul>
+                         </li>
 
-
-            
-
-                     </li>
-                     <li class="">
-                        <a href="#dashboard" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-dashboard yellow_color"></i> <span>Propriete</span></a>
-                        <ul class="collapse list-unstyled" id="dashboard">
-                          
+                         </li>
+                     <li>
+                        <a href="#element" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-diamond purple_color"></i> <span>Propriete</span></a>
+                        <ul class="collapse list-unstyled" id="element">
+                        <li>
+                              <a href="/propriete/create"> <span>Ajouter</span></a>
+                           </li>
+                           <li>
+                              <a href="/propriete"><span>List</span></a>
+                           </li>
                         </ul>
                      </li>
                      </li>
@@ -90,16 +94,14 @@
                         </div>
                         <div class="right_topbar">
                            <div class="icon_info">
-                              
+
                               <ul class="user_profile_dd">
                                  <li>
-                                    <a class="dropdown-toggle" data-toggle="dropdown"><img class="img-responsive rounded-circle" src="im{{asset('./images/layout_img/user_img.jpg')}}" alt="#" /><span class="name_user">LOMBA-TECH</span></a>
-                                    <div class="dropdown-menu">
+                                    <a class="dropdown-toggle" data-toggle="dropdown"><img class="img-responsive rounded-circle" src="im{{asset('./images/layout_img/tsimmo.png')}}" alt="" /><span class="name_user">LOMBA-TECH</span></a>
+                                    <!-- <div class="dropdown-menu">
                                        <a class="dropdown-item" href="profile.html">My Profile</a>
-                                       <a class="dropdown-item" href="settings.html">Settings</a>
-                                       <a class="dropdown-item" href="help.html">Help</a>
                                        <a class="dropdown-item" href="#"><span>Log Out</span> <i class="fa fa-sign-out"></i></a>
-                                    </div>
+                                    </div> -->
                                  </li>
                               </ul>
                            </div>
@@ -118,3 +120,6 @@
                            </div>
                         </div>
                      </div>
+
+
+

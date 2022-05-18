@@ -26,14 +26,14 @@ class QuartierController extends Controller
 
     public function store(Request  $request){
         Quartier::create( $request->all());
-        return redirect()->route('quatiers.index');
+        return redirect()->route('quartiers.index');
     }
     public function destroy($id)
     {
         $quartier = Quartier::findOrFail($id);
         $quartier->delete();
 
-        return ("quartier supprimer");
+        return ("quartiers supprimer");
 
     }
     public function update(Request $request, $id)

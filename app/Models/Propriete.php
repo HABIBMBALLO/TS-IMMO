@@ -4,24 +4,29 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use App\Models\Proprietaires;
+use App\Models\Type_Propriete;
+use App\Models\Quartier;
 
 class Propriete extends Model
 {
     use HasFactory;
     protected $fillable=['libelle','nombre_etage','superficie','quartier_id','proprietaire_id','typePropriete_id'];
 
-    public function proprietaires()
+    public function proprietaire()
     {
         return $this->belongsTo(Proprietaires::class);
     }
 
-    public function quartiers()
+    public function quartier()
     {
-        return $this->belongsTo(Quartiers::class);
-    }   
+        return $this->belongsTo(Quartier::class);
+    }
 
-    public function type_proprietes()
+
+    public function type_propriete()
     {
-        return $this->belongsTo(Type_Proprietes::class);
+        return $this->belongsTo(Type_Propriete::class);
+
     }
 }

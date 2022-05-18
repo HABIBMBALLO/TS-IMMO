@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-return new class extends Migration
+class CreateProprietesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -18,18 +18,12 @@ return new class extends Migration
             $table->string('libelle');
             $table->integer('nombre_etage');
             $table->integer('superficie');
-            $table->foreignId('quartier_id')
-            ->constrained()
-            ->onUpdate('restrict')
-            ->onDelete('restrict');
-            $table->foreignId('proprietaire_id')
-            ->constrained()
-            ->onUpdate('restrict')
-            ->onDelete('restrict');
-            $table->foreignId('type_propriete_id')
-            ->constrained()
-            ->onUpdate('restrict')
-            ->onDelete('restrict');
+            $table->unsignedBigInteger('quartier_id');
+            $table->foreign('quartier_id')->references('id')->on('quartiers');
+            $table->unsignedBigInteger('proprietaire_id');
+            $table->foreign('proprietaire_id')->references('id')->on('proprietaires');
+            $table->unsignedBigInteger('typePropriete_id');
+            $table->foreign('typePropriete_id')->references('id')->on('type__proprietes');
             $table->timestamps();
         });
     }
@@ -43,4 +37,4 @@ return new class extends Migration
     {
         Schema::dropIfExists('proprietes');
     }
-};
+}

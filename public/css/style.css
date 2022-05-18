@@ -244,7 +244,7 @@ a.btn {
 --*/
 
 .red_bg {
-    background: #ff4748;
+    background: #bd6363;
 }
 
 .blue_bg {
@@ -475,11 +475,11 @@ a:focus {
 }
 
 .blue1_color {
-    color: #2196f3 !important;
+    color: #4bc3bd !important;
 }
 
-.blue1_bg {
-    background: #2196f3 !important;
+.blue1_bg { 
+    background: #1d405e !important;
 }
 
 .orange_color {
@@ -515,11 +515,11 @@ a:focus {
 }
 
 .red_color {
-    color: #e91e63 !important;
+    color: #67565b !important;
 }
 
 .red_bg {
-    background: #e91e63 !important;
+    background: #654d55 !important;
 }
 
 .yellow_color {
@@ -539,11 +539,11 @@ a:focus {
 }
 
 .orange_color2 {
-    color: #d81b0e !important;
+    color: #af3c34 !important;
 }
 
 .orange_bg2 {
-    background: #da190b !important;
+    background: #94453f !important;
 }
 
 .green_color {
@@ -626,7 +626,7 @@ a:focus {
     width: 100%;
     padding-left: 280px;
     z-index: 2;
-    background: #15283c;
+    background: #121a23;
     top: 0;
     transition: ease all 0.3s;
     left: 0;
@@ -720,7 +720,7 @@ a:focus {
 .icon_info ul.user_profile_dd>li {
     width: auto;
     border-radius: 0;
-    background: #ee0d0d;
+    background: #000000;
     margin: 0;
     padding: 12px 0 12px 20px;
     height: auto;
@@ -730,7 +730,7 @@ a:focus {
     border: none;
     padding: 14px 26px 14px;
     font-size: 21px;
-    background: #df0c0c;
+    background: #000000;
     margin-right: 0;
     cursor: pointer;
     float: left;
@@ -878,7 +878,7 @@ span {
 }
 
 #sidebar ul.components ul {
-    background: #047ffa;
+    background: #4a7d7d;
     padding: 20px 0;
 }
 
@@ -934,7 +934,7 @@ a[data-toggle="collapse"] {
 .page_title h2 {
     font-size: 20px;
     font-weight: 500;
-    color: #077af5;
+    color: #1b8f9c;
 }
 
 #sidebar.active+#content {
@@ -943,7 +943,7 @@ a[data-toggle="collapse"] {
 
 .topbar .navbar {
     padding: 0;
-    background: #037bfc;
+    background: #19828a;
     border: none;
     border-radius: 0;
 }
@@ -954,7 +954,7 @@ a[data-toggle="collapse"] {
 
 .sidebar_user_info {
     padding: 15px 25px;
-    background: #017cf7;
+    background: #17899d;
 }
 
 .user_img img {

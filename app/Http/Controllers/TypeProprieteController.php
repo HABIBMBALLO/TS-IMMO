@@ -1,32 +1,35 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Models\TypePropriete;
+
+use App\Models\Type_Propriete;
 use Illuminate\Http\Request;
 
 class TypeProprieteController extends Controller
 {
+
     public function index()
     {
-        $type_Propriete = TypePropriete::all();
+
+        $typePropriete = Type_Propriete::all();
         return view('typeProprietes/index', [
-            'typeProprietes' => $type_Propriete
+            'typePropretes' => $typePropriete
         ]);
     }
 
     public function create(){
-        $type_Propriete=TypePropriete::all();
+        $typePropriete=Type_Propriete::all();
         return view('typeProprietes/add');
 
     }
 
     public function store(Request  $request){
-        TypePropriete::create( $request->all());
-        return redirect()->route('typePropriete.index');
+        Type_Propriete::create( $request->all());
+        return redirect()->route('typepropriete.index');
     }
     public function destroy($id)
     {
-        $typePropriete = TypePropriete::findOrFail($id);
+        $typePropriete = Type_Propriete::findOrFail($id);
         $typePropriete->delete();
 
         return ("typePropriete supprimer");
@@ -34,7 +37,7 @@ class TypeProprieteController extends Controller
     }
     public function update(Request $request, $id)
     {
-        $typePropriete = TypePropriete::find($id);
+        $typePropriete = Type_Propriete::find($id);
         $typePropriete->update($request->all());
         return $typePropriete;
     }
